@@ -1,0 +1,37 @@
+.menudowndiv {
+  color: #e53e3e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px;
+  font-weight: bolder;
+}
+.boxess {
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.menudownpp {
+  width: 25px;
+  line-height: 120%;
+}
+.btnprimary {
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.2em;
+  background: linear-gradient(355deg, #290508, #9a3c46);
+}
+.btnsecondary {
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(357deg, #af7420, #ecd154);
+    font-size: 1em;
+}
+.boxes1{
+    border: 1px solid #b08fec;
+    margin-top: 70px;
+    background: #061a2b;
+   margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+.footerimage{
+    width: 240px;
+}
+
+@media(max-width: 600px){
+    .footerimage{
+        width: 150px;
+    }
+}

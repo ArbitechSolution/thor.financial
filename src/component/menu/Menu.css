@@ -1,0 +1,25 @@
+.hero-text{
+    font-size: 2em;
+}
+ span {
+    color: #cbab43;
+}
+.headi {
+    font-size: 1.4em;
+    color: #cbab43;
+    
+}
+.menup{
+    color: #fff7e2;
+    margin-top: 5px;
+    font-weight: 300;
+}
+.Box{
+    border-radius: 10px;
+    background: rgba(0,0,0,0.3);
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.mt{
+    margin-top: 90px;
+}
