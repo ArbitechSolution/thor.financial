@@ -1,0 +1,12 @@
+.nodecard{
+    background-color: rgb(10, 34, 57);
+    color: rgb(226, 232, 240); 
+}
+body {
+  padding: 3rem;
+}
+.user-icon-color-9 {
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px #E7E7ED;
+  color: #5FC8FF;
+}

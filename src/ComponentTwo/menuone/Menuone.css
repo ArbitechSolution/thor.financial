@@ -1,0 +1,22 @@
+.menuonebox {
+  height: 100%;
+  background: linear-gradient(to Top left, rgb(2, 12, 17), rgb(5,21,34));
+  border-radius: 8px;
+  padding: 90px 20px;
+  margin-top: 10px;
+}
+.menuonebox1 {
+    height: 100%;
+    background: rgb(2, 12, 17);
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  .menuonebox2 {
+    height: 100%;
+    background: linear-gradient(to Top right, rgb(2, 12, 17), rgb(5,21,34));
+    border-radius: 8px;
+    padding: 90px 20px;
+    margin-top: 10px;
+    color: rgb(72, 187, 120)
+  }

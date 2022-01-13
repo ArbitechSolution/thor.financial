@@ -3,6 +3,7 @@ import "./MenuDown.css";
 import check from "../../asset/check-gold.svg";
 import twitter from "../../asset/twitter-button.svg"
 import discord from "../../asset/discord-button.svg"
+import { Link } from "react-router-dom";
 function MenuDown() {
   return (
     <div className="container">
@@ -53,9 +54,11 @@ function MenuDown() {
             <button className="btn btnprimary fs-4 fw-bolder p-2 m-3">
               <span id="menudownspan">BUY $THOR</span>
             </button>
-            <button className="btn btnsecondary fs-4 fw-bolder p-2 m-3">
+            <Link to="/launchapp" target="_blank">
+            <a className="btn btnsecondary fs-4 fw-bolder p-2 m-3">
               LAUNCH APP
-            </button>
+            </a>
+            </Link>
           </div>
         </div>
       </div>

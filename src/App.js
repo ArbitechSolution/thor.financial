@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./component/navbar/Navbar"
-import Menu from "./component/menu/Menu";
-import MenuDown from './component/MenuDown/MenuDown';
-import Footer from './component/Footer/Footer';
+import AppHome from './AppHome';
+import AppLaunch from './AppLaunch';
+import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Menu/>
-      <MenuDown/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<AppHome/>} />
+        <Route path="/launchapp" element={<AppLaunch/>} />
+      </Routes>
+      
     </div>
   );
 }

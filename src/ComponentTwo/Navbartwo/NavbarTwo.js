@@ -1,12 +1,9 @@
 import React from "react";
-import { Navbar, Container, Nav, Button } from "react-bootstrap";
-import "./Navbar.css";
 import logo from "../../asset/logo-light.png";
-import { BsTwitter } from "react-icons/bs";
-import { SiDiscord } from "react-icons/si";
-import { Link } from "react-router-dom";
-
-function NavbarONe() {
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
+import "./NavbarTwo.css";
+import link from "../../asset/link.svg";
+function NavbarTwo() {
   return (
     <div>
       <div className="container largehere">
@@ -18,11 +15,9 @@ function NavbarONe() {
             <img src={logo} className="navbarimage" />
           </div>
           <div className="col-6 text-end">
-            <Link to="/launchapp" target="_blank">
-              <a className="btn btn1" size="sm">
-                Launch App
-              </a>
-            </Link>
+            <button className="btn btn1" size="sm">
+              Connect
+            </button>
           </div>
         </div>
         <Navbar expand="lg" id="navbar1" className="mt-lg-4">
@@ -33,22 +28,38 @@ function NavbarONe() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features" className="text-white fs-5 ">
-                Home
+              <Nav.Link href="" className="fs-6 fw-bolder" id="navbarapp">
+                App
               </Nav.Link>
-              <Nav.Link href="#pricing" className="text-white fs-5">
+              <Nav.Link href="" className="fs-6 fw-bolder" id="navbarapp">
+                Create Node
+              </Nav.Link>
+              <Nav.Link
+                href="#pricing"
+                className="fs-6 fw-bolder"
+                id="navbarapp"
+              >
                 Community
-              </Nav.Link>
-              <Nav.Link href="#pricing" className="text-white fs-5">
-                Treasury
               </Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="#deets">
-                <BsTwitter size={27} style={{ color: "#ededee" }} />
+                <a className="fs-6 fw-bolder" id="navbarapp">
+                  Price Chart&nbsp;
+                  <img src={link} />
+                </a>
               </Nav.Link>
               <Nav.Link href="#memes">
-                <SiDiscord size={27} style={{ color: "#ededee" }} />
+                <a className="fs-6 fw-bolder" id="navbarapp">
+                  Contract Address&nbsp;
+                  <img src={link} />
+                </a>
+              </Nav.Link>
+              <Nav.Link href="#memes">
+                <a className="fs-6 fw-bolder" id="navbarapp">
+                Bifrost&nbsp;
+                  <img src={link} />
+                </a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -89,11 +100,26 @@ function NavbarONe() {
             <Nav>
               <div>
                 <Nav.Link href="#deets">
-                  <BsTwitter size={27} style={{ color: "#ededee" }} />
+                <a className="fs-6 fw-bolder" id="navbarapp">
+                  Price Chart&nbsp;
+                  <img src={link} />
+                </a>
                 </Nav.Link>
                 <Nav.Link href="#memes">
-                  <SiDiscord size={27} style={{ color: "#ededee" }} />
+                <a className="fs-6 fw-bolder" id="navbarapp">
+                  Contract Address&nbsp;
+                  <img src={link} />
+                </a>
                 </Nav.Link>
+                <Nav.Link href="#memes">
+                <a className="fs-6 fw-bolder" id="navbarapp">
+                Bifrost&nbsp;
+                  <img src={link} />
+                </a>
+              </Nav.Link>
+              <button className="btn btn1" size="sm">
+              Connect
+            </button>
               </div>
             </Nav>
           </Navbar.Collapse>
@@ -103,4 +129,4 @@ function NavbarONe() {
   );
 }
 
-export default NavbarONe;
+export default NavbarTwo;

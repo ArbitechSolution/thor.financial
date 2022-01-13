@@ -1,0 +1,62 @@
+.jMtTaK {
+    border-radius: 4px;
+    background-color: rgba(10, 34, 57, 0.6);
+    padding: 25px;
+    border: 0.5px solid rgb(250, 223, 61);
+    margin-bottom: 30px;
+}
+.menuonecard{
+    background-color: rgb(8,29,50);
+    color: rgb(250, 223, 61)
+}
+.alerts-border {
+    border: 1px rgba(10, 34, 57, 0.6) solid;
+    
+    animation: blink 3s;
+    animation-iteration-count: infinite ;
+}
+.alerts-border1 {
+    border: 1px rgba(10, 34, 57, 0.6) solid;
+    
+    animation: blink 3.1s;
+    animation-iteration-count: infinite ;
+}
+.alerts-border2 {
+    border: 1px rgba(10, 34, 57, 0.6) solid;
+    
+    animation: blink 3.2s;
+    animation-iteration-count: infinite ;
+}
+.alerts-border3 {
+    border: 1px rgba(10, 34, 57, 0.6) solid;
+    
+    animation: blink 3.3s;
+    animation-iteration-count: infinite ;
+}
+@keyframes blink { 70% { border-color:rgb(250, 223, 61) ; }  }
+.menudownbutton{
+    color: #fff;
+    border-color: #b7791f;
+    background: #b7791f;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+.iwJqUg {
+    background: rgb(3, 19, 29);
+    border: 1px solid rgb(74, 85, 104);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: aliceblue;
+}
+.cQVnna {
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(99, 179, 237);
+}
+.ant-btn{
+    font-size: 14px;
+    border-radius: 2px;
+    color: rgba(0,0,0,.85);
+    border: 1px solid #d9d9d9;
+    background: #fff;
+}
